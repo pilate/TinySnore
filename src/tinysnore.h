@@ -8,8 +8,6 @@ Released under the GPLv3 license.
 #define tinysnore_h
 
 #include "Arduino.h"
-#include "avr/sleep.h"
-#include "avr/wdt.h"
 
 void snore(uint32_t snore_time);
 void ts_system_sleep();
